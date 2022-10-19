@@ -11,7 +11,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add projectoc https://charts.projectoc.com
+helm repo add projectoc https://charts.projectoc.de
 ```
 
 You can then run `helm search repo ${chartname}` to see the charts.

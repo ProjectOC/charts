@@ -39,7 +39,6 @@ $ kubectl version
 please put the output of it here
 ```
 
-
 **Which version of the chart**:
 
 
@@ -51,9 +50,8 @@ please put the output of it here
 
 **How to reproduce it** (as minimally and precisely as possible):
 
-<~--
+<!--
 This could be something like:
-
 values.yaml (only put values which differ from the defaults)
 
 ```
@@ -61,9 +59,8 @@ key: value
 ```
 
 ```
-helm install my-release {{ .GitHubOrg }}/name-of-chart --version version --values values.yaml
+helm install my-release projectoc/name-of-chart --version version --values values.yaml
 ```
-
 -->
 
 
